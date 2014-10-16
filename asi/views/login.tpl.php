@@ -37,7 +37,7 @@
         <li><a href="solicitudes_de_inscripcion.html">Inscripciones</a></li>
         <li><a href="solicitudes_renovacion.html">Renovacion</a></li>
         <li><a href="grupos_scout.html">Grupos Scout</a></li>-->
-        <li class="nohov"><a href="inscripcion_m.html"> <button class="btn btn-default">Registrate</button></a></li>
+        <li class="nohov"><a href="inscripcion_m.html"> <button class="btn btn-default">Regístrate</button></a></li>
         <li class="nohov"> <a href="" data-toggle="modal" data-target="#myModal"><button class="btn btn-default">Ingresar</button></a></li>
         <img id="logo2" src="img/logo1.png" class="img-responsive" alt="Responsive image">
       </ul>
@@ -62,7 +62,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-            <h4 class="modal-title" id="myModalLabel">Ingresa</h4>
+            <h4 class="modal-title" id="myModalLabel">Iniciar Sesión</h4>
           </div>
           <div class="modal-body">
             <div class="row">
@@ -75,11 +75,11 @@
                   <label>
                     Contraseña:
                   </label>
-                  <input type="password" placeholder="contraseña" name="password" id="password" class="form-control" >
+                  <input type="password" placeholder="Contraseña" name="password" id="password" class="form-control" >
                   <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
                     <button type="button" value="Entrar" class="btn btn-primary">Entrar</button>
-                    <a href="inscripcion_m.html">Registrate</a>
+                    <a href="inscripcion_m.html">Regístrate</a>
                   </div>
                 </form>
               </div>  
