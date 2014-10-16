@@ -10,10 +10,11 @@ $registro   = new Registro();
 <head>
 	<title>Grupos Scout</title>
 
-	<script type="text/javascript" src="../js/jquery-1.11.1.js"></script>
-	<script type="text/javascript" src="../js/bootstrap.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="../css/custom.css">
+	<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/custom.css">
+<meta charset="UTF-8">
 </head>
 <body>
 
@@ -27,7 +28,7 @@ $registro   = new Registro();
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <img id="logo1" src="../img/ases1.jpg" class="img-responsive" alt="Responsive image">
+      <img id="logo1" src="img/ases1.jpg" class="img-responsive" alt="Responsive image">
       <a  class="navbar-brand" href="#"><h3>SCOUT</h3>El Salvador</a> 
       
     </div>
@@ -36,10 +37,10 @@ $registro   = new Registro();
       <ul class="nav navbar-nav navbar-right">
         <li><a href="indexadmin.html">Inicio</a></li>
         <li><a href="solicitudes_de_inscripcion.html">Inscripciones</a></li>
-        <li><a href="solicitudes_de_renovacion.html">Renovacion</a></li>
+        <li><a href="solicitudes_de_renovacion.html">Renovación</a></li>
         <li><a href="grupos_scout.html">Grupos Scout</a></li>
         <li><a href="miembros_scout.html">Miembros Scout</a></li>
-        <img id="logo2" src="../img/logo1.png" class="img-responsive" alt="Responsive image">
+        <img id="logo2" src="img/logo1.png" class="img-responsive" alt="Responsive image">
 
       </ul>
 
@@ -54,7 +55,7 @@ $registro   = new Registro();
 				<a href="inscripcion_de_grupo.html" class="btn btn-primary btn-lg" role="button">Agregar un Nuevo Grupo</a>
 			</div>
 			<div class="col-lg-4 col-lg-offset-4">
-				<input type="text" class="form-control" placeholder="Busqueda">
+				<input type="text" class="form-control" placeholder="Búsqueda">
 			</div>
 		</div>
                
@@ -75,7 +76,9 @@ $registro   = new Registro();
 						</tr>
 					</thead>
                     <tbody>
-                     <?php 
+                     
+
+      <?php 
       try{
       $blogp = $registro->seleccionar_grupos();
       }catch(Exception $e){

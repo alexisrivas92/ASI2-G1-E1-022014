@@ -13,8 +13,9 @@
   <link type="text/css" href="css/mapLog.css" rel="stylesheet" media="all" />
   <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&language=es"></script>
   <script type="text/javascript" src="js/mapLog.js"></script>
-</head>
 <meta charset="UTF-8">
+</head>
+
 <body>
   <nav class="navbar navbar-default log" role="navigation">
     <div class="container-fluid">

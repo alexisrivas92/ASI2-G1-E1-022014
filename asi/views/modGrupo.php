@@ -2,16 +2,17 @@
 	<html>
 	<head>
 		<title>
-			Modificacion de Grupo
+			Modificación de Grupo
 		</title>
 
-		<script type="text/javascript" src="../js/jquery-1.11.1.js"></script>
-		<script type="text/javascript" src="../js/bootstrap.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
-	  <link rel="stylesheet" type="text/css" href="../css/custom.css">
-	  <link type="text/css" href="../css/map.css" rel="stylesheet" media="all" />
-	  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&language=es"></script>
-	  <script type="text/javascript" src="../js/mapMod.js"></script>
+		<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	  	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	  	<link type="text/css" href="css/map.css" rel="stylesheet" media="all" />
+	  	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&language=es"></script>
+  		<script type="text/javascript" src="js/mapLog.js"></script>
+	<meta charset="UTF-8">
 	</head>
 	<body onload="initialize()">
 		
@@ -25,7 +26,7 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <img id="logo1" src="../img/ases1.jpg" class="img-responsive" alt="Responsive image">
+	      <img id="logo1" src="img/ases1.jpg" class="img-responsive" alt="Responsive image">
 	      <a  class="navbar-brand" href="#"><h3>SCOUT</h3>El Salvador</a> 
 	      
 	    </div>
@@ -34,10 +35,10 @@
 	      <ul class="nav navbar-nav navbar-right">
 	        <li><a href="indexadmin.html">Inicio</a></li>
 	        <li><a href="solicitudes_de_miembro.html">Inscripciones</a></li>
-	        <li><a href="#">Renovacion</a></li>
+	        <li><a href="#">Renovación</a></li>
 	        <li><a href="#">Grupos Scout</a></li>
 	        <li><a href="#">Miembros Scout</a></li>
-	        <img id="logo2" src="../img/logo1.png" class="img-responsive" alt="Responsive image">
+	        <img id="logo2" src="img/logo1.png" class="img-responsive" alt="Responsive image">
 
 	      </ul>
 
@@ -50,14 +51,15 @@
 		<form method="POST">
 			
 		<div class="row">
-			<h2 class="text-center">Modificarcion de Grupo</h2>
+			<h2 class="text-center">Modificación de Grupo</h2>
+			<hr class="line"><br>
 			<div class="col-lg-3">
 				<label>Nombre de Grupo:</label>
-				<input type="text" name="nomGrupo" class="form-control">
-				<label>Numero de Grupo:</label>
-				<input type="text" name="numGrupo" class="form-control">
-				<label>Fecha de Fundacion</label>
-				<input type="date" name="fechFundacion" class="form-control">
+				<input type="text" name="nomGrupo" class="form-control"><br>
+				<label>Número de Grupo:</label>
+				<input type="text" name="numGrupo" class="form-control"><br>
+				<label>Fecha de Fundación</label>
+				<input type="date" name="fechFundacion" class="form-control"><br>
 				<label>Exclusivo:</label>
 				<br>
 				<label>
@@ -66,18 +68,18 @@
 				</label>
 				<label>
 				No	
-				<input type="radio" checked="true" name="exclusivo">	
+				<input type="radio" checked="true" name="exclusivo">
 				</label>
-				<br>
-				<label>Lugar de Reunion:</label>
-				<input type="text" name="lugarReunion" class="form-control">	
+				<br><br>
+				<label>Lugar de Reunión:</label>
+				<input type="text" name="lugarReunion" class="form-control"><br>
 				<label>Propietario Lugar:</label>
-				<input type="text" name="propLugar" class="form-control">	
-				<label>Telefono:</label>
-				<input type="text" name="telefono" class="form-control">	
+				<input type="text" name="propLugar" class="form-control"><br>	
+				<label>Teléfono:</label>
+				<input type="text" name="telefono" class="form-control"><br>	
 			</div>	
 			<div class="col-lg-4"> 
-				<label>Departamento:</label>
+				<label>Departamento:</label><br>
 					<select class="form-control">
 						<option>San Salvador</option>
 						<option>La Libertad</option>
@@ -100,7 +102,7 @@
 				<label>Calle:</label>
 				<input type="text" name="calle" class="form-control">
 				<br>	
-				<label>Numero de Casa:</label>
+				<label>Número de Casa:</label>
 				<input type="text" name="numCasa" class="form-control">
 				<br>
 				<label>Colonia:</label>
@@ -118,6 +120,7 @@
 					<br>
 					<a href="grupos_scout.html" class="btn btn-primary btn-lg" role="button">Cancelar</a>
 					<a href="grupos_scout.html" class="btn btn-primary btn-lg" role="button">Guardar</a>
+					<br>
 					<br>
 					<br>
 			</div>

@@ -13,8 +13,9 @@
   	<link type="text/css" href="css/map.css" rel="stylesheet" media="all" />
   	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&language=es"></script>
   	<script type="text/javascript" src="js/mapa.js"></script>
-</head>
 <meta charset="UTF-8">
+</head>
+
 <body>
 <nav class="navbar navbar-default" role="navigation">
   	<div class="container-fluid">
@@ -34,7 +35,7 @@
       
 
     </div>
-
+    
     <br>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="index.html">Inicio</a></li>

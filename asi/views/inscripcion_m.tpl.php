@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
+
 	<title>Inscripción de miembro</title>
 	<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -16,8 +16,9 @@
   	<link rel="stylesheet" type="text/css" href="css/custom.css">
   	<link type="text/css" href="css/map.css" rel="stylesheet" media="all" />
   	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&language=es"></script>
-  	<script type="text/javascript" src="js/mapIns.js"></script>
+  <script type="text/javascript" src="js/mapLog.js"></script>
   	<script type="text/javascript" src="js/script_combo.js"></script>
+<meta charset="UTF-8">
 </head>
 
 <body>
@@ -26,15 +27,9 @@
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <img id="logo1" src="img/ases1.jpg" class="img-responsive" alt="Responsive image">
-      <a  class="navbar-brand" href="#"><h3>SCOUT</h3>El Salvador</a> 
       
+      <img id="logo1" src="img/ases1.jpg" class="img-responsive" alt="Responsive image">
+      <a  class="navbar-brand" href="#"><h3>SCOUT</h3>El Salvador</a>
     </div>
       
       <br>
@@ -53,8 +48,9 @@
   </div><!-- /.container-fluid -->
 	</nav>
 	<h2 class="text-center">Inscripción de Miembro</h2>
-	<hr class="line">
+	
 	<div class="container">
+	<hr class="line">
 		<div class="col-lg-6">
 			<img src="img/perfil.jpg">
 			<br>
@@ -74,7 +70,7 @@
 			<br>
 			<label>Género:</label>
 			<label>Masculino
-			<input type="radio" name="genero" checked="true">	
+			<input type="radio" name="genero" checked="true">&nbsp;&nbsp;
 			</label>
 			<label>Femenino
 			<input type="radio" name="genero"  >	
