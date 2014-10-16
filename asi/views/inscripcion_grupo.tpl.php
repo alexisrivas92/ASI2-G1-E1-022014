@@ -40,7 +40,7 @@
         <li><a href="index.html">Inicio</a></li>
         <li><a href="solicitudes_de_inscripcion.html">Inscripciones</a></li>
 
-        <li><a href="solicitudes_renovacion.html">Renovacion</a></li>
+        <li><a href="solicitudes_renovacion.html">Renovación</a></li>
         <!--<li><a href="grupos_scout.html">Grupos Scout</a></li> -->
         <li><a href="miembros_scout.html">Miembros Scout</a></li>
         <img id="logo2" src="img/logo1.png" class="img-responsive" alt="Responsive image">
@@ -58,12 +58,13 @@
 			
 		<div class="row">
 			<h2 class="text-center">Inscripción de Grupo</h2>
+			<hr class="line">
 			<div class="col-lg-3">
 				<label>Nombre de Grupo:</label>
 				<input type="text" name="nomGrupo" class="form-control"><br>
 				<label>Número de Grupo:</label>
 				<input type="text" name="numGrupo" class="form-control"><br>
-				<label>Fecha de Fundación</label>
+				<label>Fecha de Fundación:</label>
 				<input type="date" name="fechFundacion" class="form-control"><br>
 				<label>Exclusivo:</label>
 				<br>
@@ -72,10 +73,9 @@
 				<input type="radio" checked="false" name="exclusivo">	
 				</label>
 				<label>
-				No	
+				&nbsp;&nbsp;No	
 				<input type="radio" checked="true" name="exclusivo">	
 				</label><br><br>
-				
 				<label>Lugar de Reunión:</label>
 				<input type="text" name="lugarReunion" class="form-control"><br>	
 				<label>Propietario Lugar:</label>
